@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Venda de Ingressos de Cinema</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cinema TopFilms</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Em Cartaz</a></li>
+                <li><a href="#">Próximas Estreias</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="movie-list">
+            <article class="movie-card">
+                <img src="filme1.jpg" alt="Filme 1">
+                <h2>Filme 1</h2>
+                <p>Diretor: Diretor do Filme 1</p>
+                <p>Gênero: Gênero do Filme 1</p>
+                <button class="btn-buy" onclick="comprarIngresso(1)">Comprar Ingresso</button>
+            </article>
+            <article class="movie-card">
+                <img src="filme2.jpg" alt="Filme 2">
+                <h2>Filme 2</h2>
+                <p>Diretor: Diretor do Filme 2</p>
+                <p>Gênero: Gênero do Filme 2</p>
+                <button class="btn-buy" onclick="comprarIngresso(2)">Comprar Ingresso</button>
+            </article>
+            <!-- Adicionar mais filmes aqui -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Cinema TopFilms. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
